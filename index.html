@@ -1,0 +1,122 @@
+<html>
+<head>
+<title> netfilx </title>
+<style>
+*{
+margin:0;
+padding:0;
+font-family:'Poppins', sans-serif;
+box-sizing:border-box;
+}
+body{
+    background:#000;
+color:#fff;
+}
+.header{
+width:100%;
+height:100vh;
+background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflixlogo.jpeg");
+background-position:center;
+background-size: cover;
+position: relative;
+padding:10px 8%;
+}
+nav{
+display:flex;
+justify-content: space-between;
+padding-left:2vw;
+align-items:center;
+padding:10px 0;
+}
+img{
+cursor:pointer;
+width:150px;
+}
+ nav button{
+ border:0;
+outline:0;
+background:#db0001;
+color:#fff;
+padding:7px 20px;
+font-size:12px;
+border-radius:4px;
+margin-left:10px;
+cursor:pointer;
+}
+.lang{
+display:inline-flex;
+align-item:center;
+background:transparent;
+border:1px solid #fff;
+padding:7px 10px;
+}
+.header-content{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+text-align:center;
+margin-top:100px;
+}
+.header-content h1{
+font-size:60px;
+line-height:70px;
+font-weight:600;
+max-width:650px;
+}
+.header-content h3{
+margin-bottom:20px;
+font-weight:400;
+}
+.email{
+background:#fff;
+border-radius:4px;
+display:flex;
+align-items:center;
+margin-top:30px;
+overflow:hidden;
+}
+.email input{
+flex:1;
+border:0;
+outline:0;
+margin-left:20px;
+}
+.email button{
+background:#db0001;
+border:0;
+outline:0;
+color:#fff;
+font-size:16px;
+cursor:pointer;
+padding:15px 13px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+<nav>
+  <img src="logo.jpeg"></img>
+	<div class="button">
+	<button class="lang">English</button>
+        <button> Sign in</button>
+<div>
+</nav>
+<div class="header-content">
+	<h1> Unlimited movies, TV shows and more.</h1>
+	<h3>Watch anywhere. Cancel anytime.</h3>
+	<p> Ready to watch? Enter your email to create or restart your membership.</p>
+	<form class="email">
+	<input type="email" placeholder="Email address" required>
+	<button type="submit">Get Started</button>
+	</form>
+<div>
+</div>
+
+
+
+
+</body>
+</html>
